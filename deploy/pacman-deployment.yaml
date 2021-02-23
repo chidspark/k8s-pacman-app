@@ -18,7 +18,6 @@ spec:
         name: pacman
         app.kubernetes.io/name: pacman
     spec:
-      hostNetwork: true
       containers:
       - image: quay.io/jpacker/nodejs-pacman-app:latest
         name: pacman
